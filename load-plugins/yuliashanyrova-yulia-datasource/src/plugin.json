@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Yulia Datasource",
+  "id": "yuliashanyrova-yulia-datasource",
+  "metrics": true,
+  "backend": true,
+  "executable": "gpx_yulia_datasource",
+  "info": {
+    "description": "Test for submission data source plugin",
+    "author": {
+      "name": "Yuliashanyrova"
+    },
+    "keywords": ["datasource"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=9.5.3",
+    "plugins": []
+  }
+}
